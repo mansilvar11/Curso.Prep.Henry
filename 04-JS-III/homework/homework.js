@@ -6,7 +6,6 @@ function devolverPrimerElemento(array) {
   return (array[0]);
 }
 
-
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
@@ -23,6 +22,10 @@ return array.length;
 
 
  function incrementaPorUno (array) {
+     // "array" debe ser una matriz de enteros (int/integers)
+  // Aumenta cada entero por 1
+  // y devuelve el array
+  // Tu código:
    let array1 = []
    for (let i = 0; i < array.length; i ++) {
      array1[i] = array[i] + 1;
