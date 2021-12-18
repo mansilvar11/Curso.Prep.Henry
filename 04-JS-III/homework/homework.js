@@ -3,14 +3,13 @@
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un  array (pasado por parametro)
   // Tu código:
-  return (array[0]);
+  return array[0];
 }
 
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
-  let last = array.length - 1 ;
-  return (array[last]);
+  return array.length - 1 ;
 }
 
 
@@ -38,8 +37,7 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
   // Tu código:
-  let l = elemento;
-  array.push(l);
+  array.push(elemento);
   return array;
 }
 
